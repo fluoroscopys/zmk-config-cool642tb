@@ -140,10 +140,10 @@
 
         FUNCTION {
             bindings = <
-&kp TAB  &kp N7        &kp N8        &kp N9        &kp PLUS                        &kp HOME   &kp PAGE_UP    &kp UP_ARROW      &kp PAGE_DOWN      &bt BT_SEL 0
-&kp N0   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ASTERISK  &to 0  &none      &kp END    &kp LEFT       &kp DOWN_ARROW    &kp RIGHT          &bt BT_SEL 1
-&none    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL     &none  &none      &kp ENTER  &kp BACKSPACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH
-&none    &none         &none         &none         &none         &none  &kp MINUS  &kp DEL                                                        &kp LC(RA(DELETE))
+&kp TAB    &kp N7        &kp N8        &kp N9                 &kp PLUS                                       &kp HOME   &kp PAGE_UP    &kp UP_ARROW      &kp PAGE_DOWN      &bt BT_SEL 0
+&kp N0     &kp NUMBER_4  &kp N5        &kp NUMBER_6           &kp ASTERISK  &to 0                 &none      &kp END    &kp LEFT       &kp DOWN_ARROW    &kp RIGHT          &bt BT_SEL 1
+&none      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3           &kp EQUAL     &none                 &none      &kp ENTER  &kp BACKSPACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH
+&kp LCTRL  &kp LEFT_ALT  &kp LEFT_WIN  &lt 2 INTERNATIONAL_5  &lt 3 SPACE   &mt LEFT_SHIFT SPACE  &kp MINUS  &kp DEL                                                        &kp LC(RA(DELETE))
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
@@ -151,10 +151,10 @@
 
         NUM {
             bindings = <
-&kp TAB       &kp F2        &kp F3             &kp F4         &kp F5                                                  &kp F6          &kp F7         &kp F8          &kp F9           &kp F10
-&kp AT_SIGN   &kp SQT       &kp DOUBLE_QUOTES  &kp SEMICOLON  &kp COLON     &mo 1           &kp INT_KATAKANAHIRAGANA  &mkp LCLK       &mkp LCLK      &mkp RCLK       &mkp RCLK        &kp ENTER
-&kp Z         &kp X         &kp C              &kp V          &kp B         &kp LEFT_BRACE  &kp RIGHT_BRACE           &kp LC(SPACE)   &kp RG(SPACE)  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp SLASH
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2       &kp RGUI       &kp LEFT_ALT  &kp UNDERSCORE  &none                     &bt BT_CLR_ALL                                                  &kp LEFT_SHIFT
+&kp TAB      &kp F2        &kp F3             &kp F4                 &kp F5                                                       &kp F6          &kp F7         &kp F8          &kp F9           &kp F10
+&kp AT_SIGN  &kp SQT       &kp DOUBLE_QUOTES  &kp SEMICOLON          &kp COLON    &mo 1                 &kp INT_KATAKANAHIRAGANA  &mkp LCLK       &mkp LCLK      &mkp RCLK       &mkp RCLK        &bt BT_SEL 2
+&kp Z        &kp X         &kp C              &kp V                  &kp B        &kp LEFT_BRACE        &kp RIGHT_BRACE           &kp LC(SPACE)   &kp RG(SPACE)  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp SLASH
+&kp LCTRL    &kp LEFT_ALT  &kp LEFT_WIN       &lt 2 INTERNATIONAL_5  &lt 3 SPACE  &mt LEFT_SHIFT SPACE  &kp SPACE                 &bt BT_CLR_ALL                                                  &kp LEFT_SHIFT
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
